@@ -1,47 +1,46 @@
 {
-    "name": "@subgraph-io/colors",
-    "description": "get colors in your node.js console",
-    "version": "1.5.0",
-    "author": "Marak Squires",
-    "contributors": [
-        {
-            "name": "DABH",
-            "url": "https://github.com/DABH"
-        },
-        {
-            "name": "onceknown",
-            "url": "https://github.com/onceknown"
-        }
-    ],
-    "homepage": "https://github.com/subgraph-io/colors",
-    "bugs": "https://github.com/subgraph-io/colors/issues",
-    "keywords": [
-        "ansi",
-        "terminal",
-        "colors"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/subgraph-io/colors.git"
+  "name": "@subgraph-io/colors",
+  "description": "get colors in your node.js console",
+  "version": "1.6.0",
+  "author": "Marak Squires",
+  "contributors": [
+    {
+      "name": "DABH",
+      "url": "https://github.com/DABH"
     },
-    "license": "MIT",
-    "scripts": {
-        "test": ""
-    },
-    "engines": {
-        "node": ">=16.13.0"
-    },
-    "main": "build/lib/index.js",
-    "type": "module",
-    "files": [
-        "examples",
-        "lib",
-        "LICENSE",
-        "safe.js",
-        "themes",
-        "index.d.ts",
-        "safe.d.ts"
-    ],
-    "devDependencies": {
+    {
+      "name": "onceknown",
+      "url": "https://github.com/onceknown"
     }
+  ],
+  "homepage": "https://github.com/subgraph-io/colors",
+  "bugs": "https://github.com/subgraph-io/colors/issues",
+  "keywords": [
+    "ansi",
+    "terminal",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/subgraph-io/colors.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": ""
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "main": "build/lib/index.js",
+  "type": "module",
+  "files": [
+    "examples",
+    "lib",
+    "LICENSE",
+    "safe.js",
+    "themes",
+    "index.d.ts",
+    "safe.d.ts"
+  ],
+  "devDependencies": {}
 }
