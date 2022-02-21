@@ -34,10 +34,10 @@ export default colors;
 colors.themes = {};
 
 import util from 'util';
-import styles from './styles.js';
+import importedStyles from './styles.js';
 import { supportsColor } from './system/supports-colors.js';
 
-var ansiStyles = colors.styles = styles;
+var ansiStyles = colors.styles = importedStyles;
 var defineProps = Object.defineProperties;
 var newLineRegex = new RegExp(/[\r\n]+/g);
 
