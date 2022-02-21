@@ -13,8 +13,8 @@
             "url": "https://github.com/onceknown"
         }
     ],
-    "homepage": "https://github.com/subgraph-io/colors.js",
-    "bugs": "https://github.com/subgraph-io/colors.js/issues",
+    "homepage": "https://github.com/subgraph-io/colors",
+    "bugs": "https://github.com/subgraph-io/colors/issues",
     "keywords": [
         "ansi",
         "terminal",
@@ -22,7 +22,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/subgraph-io/colors.js.git"
+        "url": "http://github.com/subgraph-io/colors.git"
     },
     "license": "MIT",
     "scripts": {
