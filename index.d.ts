@@ -20,6 +20,14 @@ export interface Color {
     gray: Color;
     grey: Color;
 
+    brightRed: Color;
+    brightGreen: Color;
+    brightYellow: Color;
+    brightBlue: Color;
+    brightMagenta: Color;
+    brightCyan: Color;
+    brightWhite: Color;
+
     bgBlack: Color;
     bgRed: Color;
     bgGreen: Color;
@@ -28,6 +36,14 @@ export interface Color {
     bgMagenta: Color;
     bgCyan: Color;
     bgWhite: Color;
+
+    bgBrightRed: Color;
+    bgBrightGreen: Color;
+    bgBrightYellow: Color;
+    bgBrightBlue: Color;
+    bgBrightMagenta: Color;
+    bgBrightCyan: Color;
+    bgBrightWhite: Color;
 
     reset: Color;
     bold: Color;
@@ -38,12 +54,6 @@ export interface Color {
     hidden: Color;
     strikethrough: Color;
 
-    rainbow: Color;
-    zebra: Color;
-    america: Color;
-    trap: Color;
-    random: Color;
-    zalgo: Color;
 }
 
 export function enable(): void;
@@ -66,6 +76,14 @@ export const white: Color;
 export const gray: Color;
 export const grey: Color;
 
+export const brightRed: Color;
+export const brightGreen: Color;
+export const brightYellow: Color;
+export const brightBlue: Color;
+export const brightMagenta: Color;
+export const brightCyan: Color;
+export const brightWhite: Color;
+
 export const bgBlack: Color;
 export const bgRed: Color;
 export const bgGreen: Color;
@@ -75,6 +93,14 @@ export const bgMagenta: Color;
 export const bgCyan: Color;
 export const bgWhite: Color;
 
+export const bgBrightRed: Color;
+export const bgBrightGreen: Color;
+export const bgBrightYellow: Color;
+export const bgBrightBlue: Color;
+export const bgBrightMagenta: Color;
+export const bgBrightCyan: Color;
+export const bgBrightWhite: Color;
+
 export const reset: Color;
 export const bold: Color;
 export const dim: Color;
@@ -83,13 +109,6 @@ export const underline: Color;
 export const inverse: Color;
 export const hidden: Color;
 export const strikethrough: Color;
-
-export const rainbow: Color;
-export const zebra: Color;
-export const america: Color;
-export const trap: Color;
-export const random: Color;
-export const zalgo: Color;
 
 declare global {
     interface String {

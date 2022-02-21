@@ -17,8 +17,7 @@ var stylesColors = ['white', 'black', 'blue', 'cyan', 'green', 'magenta',
                     'brightGreen', 'brightBlue', 'brightWhite', 'brightCyan',
                     'brightMagenta'];
 // eslint-disable-next-line
-var stylesAll = stylesColors.concat(['bold', 'italic', 'underline', 'inverse',
-  'rainbow']);
+var stylesAll = stylesColors.concat(['bold', 'italic', 'underline', 'inverse', 'rainbow']);
 
 colors.mode = 'console';
 assert.equal(colors.bold(s), '\x1B[1m' + s + '\x1B[22m');
