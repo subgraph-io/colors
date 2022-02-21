@@ -55,7 +55,7 @@ function translateLevel(level) {
   };
 }
 
-function supportsColor(stream) {
+function _supportsColor(stream) {
   if (forceColor === false) {
     return 0;
   }
@@ -140,7 +140,7 @@ function supportsColor(stream) {
 }
 
 function getSupportLevel(stream) {
-  var level = supportsColor(stream);
+  var level = _supportsColor(stream);
   return translateLevel(level);
 }
 
