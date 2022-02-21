@@ -35,7 +35,7 @@ colors.themes = {};
 
 import util from 'util';
 import styles from './styles.js';
-import { supportsColor } from './system/supports-colors';
+import { supportsColor } from './system/supports-colors.js';
 
 var ansiStyles = colors.styles = styles;
 var defineProps = Object.defineProperties;

@@ -1,2 +1,2 @@
-export default 'colors.js';
+export default './colors.js';
 
