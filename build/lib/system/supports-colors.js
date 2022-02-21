@@ -144,8 +144,6 @@ function getSupportLevel(stream) {
   return translateLevel(level);
 }
 
-export default {
-  supportsColor: getSupportLevel,
-  stdout: getSupportLevel(process.stdout),
-  stderr: getSupportLevel(process.stderr),
-};
+export const supportsColor = getSupportLevel;
+export const stdout = getSupportLevel(process.stdout);
+export const stderr = getSupportLevel(process.stderr);
