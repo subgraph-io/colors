@@ -9,15 +9,15 @@ steps:
     args: ['-c', "npm install"]
     secretEnv: ['GITHUB_ACCESS_TOKEN']
 
-  - name: node:16.13.0
-    entrypoint: bash
-    args: ['-c', 'npm test']
-    secretEnv: ['GITHUB_ACCESS_TOKEN']
+  # - name: node:16.13.0
+  #   entrypoint: bash
+  #   args: ['-c', 'npm test']
+  #   secretEnv: ['GITHUB_ACCESS_TOKEN']
 
-  - name: node:16.13.0
-    entrypoint: bash
-    args: ['-c', "npm run build"]
-    secretEnv: ['GITHUB_ACCESS_TOKEN']
+  # - name: node:16.13.0
+  #   entrypoint: bash
+  #   args: ['-c', "npm run build"]
+  #   secretEnv: ['GITHUB_ACCESS_TOKEN']
 
   - name: gcr.io/subgraph-io/npm-package-versioning-cloud-builder:latest
     entrypoint: '/bin/sh'
