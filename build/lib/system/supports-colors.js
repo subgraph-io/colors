@@ -26,7 +26,7 @@ THE SOFTWARE.
 'use strict';
 
 import os from 'os';
-import hasFlag  from './has-flag.js';
+import hasFlag from './has-flag.js';
 
 var env = process.env;
 

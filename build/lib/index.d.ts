@@ -56,6 +56,14 @@ export interface Color {
 
 }
 
+export type ColorSupportLevel = false | {
+    level: number;
+    hasBasic: boolean;
+    has256: boolean;
+    has16m: boolean;
+};
+
+export function supportsColor(): ColorSupportLevel;
 export function enable(): void;
 export function disable(): void;
 export function setTheme(theme: any): void;
