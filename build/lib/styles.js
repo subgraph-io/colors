@@ -46,7 +46,6 @@ var codes = {
   cyan: [36, 39],
   white: [37, 39],
   gray: [90, 39],
-  grey: [90, 39],
 
   brightRed: [91, 39],
   brightGreen: [92, 39],
@@ -65,7 +64,6 @@ var codes = {
   bgCyan: [46, 49],
   bgWhite: [47, 49],
   bgGray: [100, 49],
-  bgGrey: [100, 49],
 
   bgBrightRed: [101, 49],
   bgBrightGreen: [102, 49],

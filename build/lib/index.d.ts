@@ -18,7 +18,6 @@ export interface Color {
     cyan: Color;
     white: Color;
     gray: Color;
-    grey: Color;
 
     brightRed: Color;
     brightGreen: Color;
@@ -36,6 +35,7 @@ export interface Color {
     bgMagenta: Color;
     bgCyan: Color;
     bgWhite: Color;
+    bgGray: Color;
 
     bgBrightRed: Color;
     bgBrightGreen: Color;
@@ -82,7 +82,6 @@ export const magenta: Color;
 export const cyan: Color;
 export const white: Color;
 export const gray: Color;
-export const grey: Color;
 
 export const brightRed: Color;
 export const brightGreen: Color;
@@ -100,6 +99,7 @@ export const bgBlue: Color;
 export const bgMagenta: Color;
 export const bgCyan: Color;
 export const bgWhite: Color;
+export const bgGray: Color;
 
 export const bgBrightRed: Color;
 export const bgBrightGreen: Color;
