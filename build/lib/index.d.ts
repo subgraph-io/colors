@@ -56,7 +56,7 @@ export interface Color {
 
 }
 
-export type ColorSupportLevel = false | {
+export type ColorSupportLevel = {
     level: number;
     hasBasic: boolean;
     has256: boolean;

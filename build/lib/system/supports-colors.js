@@ -43,13 +43,9 @@ if ('FORCE_COLOR' in env) {
 }
 
 function translateLevel(level) {
-  if (level === 0) {
-    return false;
-  }
-
   return {
     level: level,
-    hasBasic: true,
+    hasBasic: level > 0 ? true : false,
     has256: level >= 2,
     has16m: level >= 3,
   };
