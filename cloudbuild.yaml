@@ -21,7 +21,7 @@ steps:
 
   - name: gcr.io/subgraph-io/npm-package-versioning-cloud-builder:latest
     entrypoint: '/bin/sh'
-    args: ['-c', '/cloud-builder -o subgraph-io -r colors -g $$GITHUB_ACCESS_TOKEN -f /workspace']
+    args: ['-c', 'node /app/cli.js -o subgraph-io -r colors -g $$GITHUB_ACCESS_TOKEN -f /workspace']
     secretEnv: ['GITHUB_ACCESS_TOKEN']
 
   - name: node:22.16.0
