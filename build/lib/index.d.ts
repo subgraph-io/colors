@@ -3,10 +3,16 @@
 // Definitions by: Bart van der Schoor <https://github.com/Bartvds>, Staffan Eketorp <https://github.com/staeke>
 // Definitions: https://github.com/Marak/colors.js
 
-export default Color;
+declare const value: Color;
+export default value;
 
 export interface Color {
     (text: string): string;
+
+    supportsColor(): ColorSupportLevel;
+    enable(): void;
+    disable(): void;
+    setTheme(theme: any): void;
 
     strip: Color;
     stripColors: Color;
@@ -65,57 +71,4 @@ export type ColorSupportLevel = {
     has16m: boolean;
 };
 
-export function supportsColor(): ColorSupportLevel;
-export function enable(): void;
-export function disable(): void;
-export function setTheme(theme: any): void;
 
-export let enabled: boolean;
-
-export const strip: Color;
-export const stripColors: Color;
-
-export const black: Color;
-export const red: Color;
-export const green: Color;
-export const yellow: Color;
-export const blue: Color;
-export const magenta: Color;
-export const cyan: Color;
-export const white: Color;
-export const gray: Color;
-
-export const brightRed: Color;
-export const brightGreen: Color;
-export const brightYellow: Color;
-export const brightBlue: Color;
-export const brightMagenta: Color;
-export const brightCyan: Color;
-export const brightWhite: Color;
-
-export const bgBlack: Color;
-export const bgRed: Color;
-export const bgGreen: Color;
-export const bgYellow: Color;
-export const bgBlue: Color;
-export const bgMagenta: Color;
-export const bgCyan: Color;
-export const bgWhite: Color;
-export const bgGray: Color;
-
-export const bgBrightRed: Color;
-export const bgBrightGreen: Color;
-export const bgBrightYellow: Color;
-export const bgBrightBlue: Color;
-export const bgBrightMagenta: Color;
-export const bgBrightCyan: Color;
-export const bgBrightWhite: Color;
-
-export const reset: Color;
-export const bold: Color;
-export const dim: Color;
-export const italic: Color;
-export const underline: Color;
-export const inverse: Color;
-export const hidden: Color;
-export const strikethrough: Color;
