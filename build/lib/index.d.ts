@@ -3,6 +3,8 @@
 // Definitions by: Bart van der Schoor <https://github.com/Bartvds>, Staffan Eketorp <https://github.com/staeke>
 // Definitions: https://github.com/Marak/colors.js
 
+export default Color;
+
 export interface Color {
     (text: string): string;
 
@@ -117,46 +119,3 @@ export const underline: Color;
 export const inverse: Color;
 export const hidden: Color;
 export const strikethrough: Color;
-
-declare global {
-    interface String {
-        strip: string;
-        stripColors: string;
-
-        black: string;
-        red: string;
-        green: string;
-        yellow: string;
-        blue: string;
-        magenta: string;
-        cyan: string;
-        white: string;
-        gray: string;
-        grey: string;
-
-        bgBlack: string;
-        bgRed: string;
-        bgGreen: string;
-        bgYellow: string;
-        bgBlue: string;
-        bgMagenta: string;
-        bgCyan: string;
-        bgWhite: string;
-
-        reset: string;
-        bold: string;
-        dim: string;
-        italic: string;
-        underline: string;
-        inverse: string;
-        hidden: string;
-        strikethrough: string;
-
-        rainbow: string;
-        zebra: string;
-        america: string;
-        trap: string;
-        random: string;
-        zalgo: string;
-    }
-}
