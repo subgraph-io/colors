@@ -26,7 +26,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": ""
+    "test": "",
+    "gemini": "gemini"
   },
   "engines": {
     "node": ">=16.13.0"
@@ -42,5 +43,7 @@
     "index.d.ts",
     "safe.d.ts"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "@google/gemini-cli": "^0.1.3"
+  }
 }
