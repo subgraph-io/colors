@@ -14,53 +14,53 @@ export interface Color {
     disable(): void;
     setTheme(theme: any): void;
 
-    strip: Color;
-    stripColors: Color;
+    strip(str: string): Color;
+    stripColors(str: string): Color;
 
-    black: Color;
-    red: Color;
-    green: Color;
-    yellow: Color;
-    blue: Color;
-    magenta: Color;
-    cyan: Color;
-    white: Color;
-    gray: Color;
+    black(str: string): Color;
+    red(str: string): Color;
+    green(str: string): Color;
+    yellow(str: string): Color;
+    blue(str: string): Color;
+    magenta(str: string): Color;
+    cyan(str: string): Color;
+    white(str: string): Color;
+    gray(str: string): Color;
 
-    brightRed: Color;
-    brightGreen: Color;
-    brightYellow: Color;
-    brightBlue: Color;
-    brightMagenta: Color;
-    brightCyan: Color;
-    brightWhite: Color;
+    brightRed(str: string): Color;
+    brightGreen(str: string): Color;
+    brightYellow(str: string): Color;
+    brightBlue(str: string): Color;
+    brightMagenta(str: string): Color;
+    brightCyan(str: string): Color;
+    brightWhite(str: string): Color;
 
-    bgBlack: Color;
-    bgRed: Color;
-    bgGreen: Color;
-    bgYellow: Color;
-    bgBlue: Color;
-    bgMagenta: Color;
-    bgCyan: Color;
-    bgWhite: Color;
-    bgGray: Color;
+    bgBlack(str: string): Color;
+    bgRed(str: string): Color;
+    bgGreen(str: string): Color;
+    bgYellow(str: string): Color;
+    bgBlue(str: string): Color;
+    bgMagenta(str: string): Color;
+    bgCyan(str: string): Color;
+    bgWhite(str: string): Color;
+    bgGray(str: string): Color;
 
-    bgBrightRed: Color;
-    bgBrightGreen: Color;
-    bgBrightYellow: Color;
-    bgBrightBlue: Color;
-    bgBrightMagenta: Color;
-    bgBrightCyan: Color;
-    bgBrightWhite: Color;
+    bgBrightRed(str: string): Color;
+    bgBrightGreen(str: string): Color;
+    bgBrightYellow(str: string): Color;
+    bgBrightBlue(str: string): Color;
+    bgBrightMagenta(str: string): Color;
+    bgBrightCyan(str: string): Color;
+    bgBrightWhite(str: string): Color;
 
-    reset: Color;
-    bold: Color;
-    dim: Color;
-    italic: Color;
-    underline: Color;
-    inverse: Color;
-    hidden: Color;
-    strikethrough: Color;
+    reset(str: string): Color;
+    bold(str: string): Color;
+    dim(str: string): Color;
+    italic(str: string): Color;
+    underline(str: string): Color;
+    inverse(str: string): Color;
+    hidden(str: string): Color;
+    strikethrough(str: string): Color;
 
 }
 
