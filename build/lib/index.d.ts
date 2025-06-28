@@ -9,7 +9,7 @@ export default colors;
 
 declare const colors: Color;
 
-interface Color {
+export interface Color {
     (text: string): string;
 
     strip: Color;
@@ -82,7 +82,7 @@ interface Color {
     zebra: Color;
 }
 
-type ColorSupportLevel = {
+export type ColorSupportLevel = {
     level: number;
     hasBasic: boolean;
     has256: boolean;
