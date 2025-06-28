@@ -5,7 +5,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 export as namespace colors;
-export = colors;
+export default colors;
 
 declare const colors: Color;
 
