@@ -19,6 +19,7 @@ interface Color {
     disable(): void;
 
     setTheme(theme: any): void;
+    supportsColor(): ColorSupportLevel;
 
     // Main methods
     bold: Color;
@@ -80,3 +81,10 @@ interface Color {
     random: Color;
     zebra: Color;
 }
+
+type ColorSupportLevel = {
+    level: number;
+    hasBasic: boolean;
+    has256: boolean;
+    has16m: boolean;
+};
